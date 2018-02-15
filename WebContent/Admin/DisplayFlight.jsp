@@ -67,7 +67,7 @@ $(document).ready(function(){
 <%-- 						value=<c:out value="${flight.getFlightNo()}"></c:out> /></th> --%>
 
 
-					<th scope="row"><button type="sumbit" onclick=" display()" id="myBtn" name="myBtn"
+					<th scope="row"><button type="sumbit" onclick=" display()" id="myBtn" name="myBtn" class="btn btn-light"
 							value=<c:out value="${flight.getFlightId()}"/>>
 							<c:out value="${flight.getFlightNo()}"></c:out>
 						</button></th>

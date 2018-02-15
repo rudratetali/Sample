@@ -43,7 +43,7 @@ public class LeaveRequest extends HttpServlet {
 			 }
 			 else
 			 {
-			 RequestDispatcher rd = request.getRequestDispatcher("AddFlight.jsp");
+			 RequestDispatcher rd = request.getRequestDispatcher("LeaveRequest.jsp");
 				request.setAttribute("noLeave","true");
 				rd.include(request, response);
 			 }
